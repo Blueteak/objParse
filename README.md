@@ -4,7 +4,7 @@ Node Wavefront OBJ parsing for multi-object files
 ## Example Usage
 ```javascript
 fs          = require('fs'),
-parseObj    = require('./objParse.js');
+parseObj    = require('parseObj');
 
 parseObj(fs.createReadStream('myObject.obj'), function(err, res) {
     if(err) throw new Error("Error parsing OBJ file: " + err)
