@@ -17,7 +17,7 @@ parseObj(fs.createReadStream('myObject.obj'), function(err, res) {
       }
     }
 });
-
+```
 ## Data
 Pass in a read stream, on `finish` event, callback is returned with an object array.<br /<br />
 Each object in the object array has an array of:
