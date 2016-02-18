@@ -19,13 +19,13 @@ parseObj(fs.createReadStream('myObject.obj'), function(err, res) {
 });
 ```
 ## Data
-Pass in a read stream, on `finish` event, callback is returned with an object array.<br /<br />
+Pass in a read stream, on `finish` event, callback is returned with an object array.<br /><br />
 Each object in the object array has an array of:
 + `v` vertex positions
 + `vn` vertex normals
 + `vt` vertex UVs
-+ `f` face position indicies
-+ `fn` face norma indidies
-+ `ft` face texture coordinate indicies
++ `f` face position indices
++ `fn` face normal indices
++ `ft` face texture coordinate indices
 <br /><br />
 `obj[n].v[m]` will get the mth vertex of the nth object as a vector of x, y, and z coordinates.
