@@ -1,0 +1,31 @@
+{
+  "name": "objParse",
+  "version": "0.1.0",
+  "description": "Parses Wavefront OBJ multi-object meshes",
+  "main": "objParse.js",
+  "dependencies": {
+    "split": "~0.2.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Blueteak/objParse.git"
+  },
+  "keywords": [
+    "obj",
+    "parse",
+    "mesh",
+    "3d",
+    "wavefront",
+    "multiple",
+    "model"
+  ],
+  "author": "Jonathan Schenker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blueteak/objParse/issues"
+  }
+}
