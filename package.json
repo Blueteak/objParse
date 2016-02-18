@@ -1,5 +1,5 @@
 {
-  "name": "objParse",
+  "name": "objparse",
   "version": "0.1.0",
   "description": "Parses Wavefront OBJ multi-object meshes",
   "main": "objParse.js",
@@ -27,5 +27,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Blueteak/objParse/issues"
-  }
+  },
+  "homepage": "https://github.com/Blueteak/objParse#readme"
 }
