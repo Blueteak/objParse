@@ -1,5 +1,5 @@
 # objParse
-Node Wavefront OBJ parsing for multi-obj files
+Node Wavefront OBJ parsing for multi-object files
 
 ## Example Usage
 ```javascript
